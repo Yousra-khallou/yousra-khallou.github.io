@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p6_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2d1b26" />
+      <stop offset="50%" stop-color="#542b3e" />
+      <stop offset="100%" stop-color="#8a3f5a" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#p6_bg)"/>
+
+  <!-- MLOps Loop -->
+  <g transform="translate(115, 60)">
+    <rect x="0" y="25" width="80" height="65" rx="12" fill="rgba(255,255,255,0.1)" stroke="#d98ba8"/>
+    <text x="40" y="52" fill="#ffffff" font-family="'DM Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Experiment</text>
+    <text x="40" y="70" fill="#f2ccd9" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">MLflow</text>
+
+    <line x1="82" y1="58" x2="135" y2="58" stroke="#d98ba8" stroke-width="2" stroke-dasharray="3,3"/>
+
+    <rect x="137" y="25" width="85" height="65" rx="12" fill="rgba(217, 139, 168, 0.22)" stroke="#d98ba8" stroke-width="1.8"/>
+    <text x="179" y="52" fill="#ffffff" font-family="'DM Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Registry &amp; CI</text>
+    <text x="179" y="70" fill="#fce4ed" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">Docker / GitHub</text>
+
+    <line x1="224" y1="58" x2="278" y2="58" stroke="#d98ba8" stroke-width="2" stroke-dasharray="3,3"/>
+
+    <rect x="280" y="25" width="85" height="65" rx="12" fill="rgba(255,255,255,0.1)" stroke="#d98ba8"/>
+    <text x="322" y="52" fill="#ffffff" font-family="'DM Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Inference</text>
+    <text x="322" y="70" fill="#f2ccd9" font-family="'DM Sans', sans-serif" font-size="9" text-anchor="middle">FastAPI · K8s</text>
+  </g>
+
+  <text x="300" y="245" fill="#ffffff" opacity="0.9" font-family="'DM Sans', sans-serif" font-size="15" font-weight="600" text-anchor="middle">End-to-End MLOps &amp; Automated Pipeline</text>
+  <text x="300" y="268" fill="#f5d6e2" opacity="0.75" font-family="'DM Sans', sans-serif" font-size="11" text-anchor="middle">Continuous Training (CT) · Model Drift Monitoring · Automated Deployments</text>
+</svg>

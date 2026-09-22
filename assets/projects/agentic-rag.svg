@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="p3_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#21182c" />
+      <stop offset="60%" stop-color="#4e3159" />
+      <stop offset="100%" stop-color="#8d5681" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#p3_bg)"/>
+  
+  <!-- Neural / vector connection graphics -->
+  <g transform="translate(140, 70)">
+    <circle cx="80" cy="70" r="38" fill="rgba(255,255,255,0.1)" stroke="#b7a5db" stroke-width="2"/>
+    <text x="80" y="68" fill="#ffffff" font-family="'DM Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">Vector DB</text>
+    <text x="80" y="82" fill="#d8cfea" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Qdrant / Chroma</text>
+
+    <line x1="120" y1="70" x2="190" y2="70" stroke="#d98ba8" stroke-width="2" stroke-dasharray="4,4"/>
+
+    <circle cx="230" cy="70" r="42" fill="rgba(217, 139, 168, 0.2)" stroke="#d98ba8" stroke-width="2"/>
+    <text x="230" y="66" fill="#ffffff" font-family="'DM Sans', sans-serif" font-size="12" font-weight="700" text-anchor="middle">LLM Agent</text>
+    <text x="230" y="81" fill="#fedee8" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">LangChain / RAG</text>
+
+    <line x1="274" y1="70" x2="340" y2="70" stroke="#b7a5db" stroke-width="2" stroke-dasharray="4,4"/>
+
+    <circle cx="380" cy="70" r="38" fill="rgba(255,255,255,0.1)" stroke="#b7a5db" stroke-width="2"/>
+    <text x="380" y="68" fill="#ffffff" font-family="'DM Sans', sans-serif" font-size="11" font-weight="700" text-anchor="middle">FastAPI</text>
+    <text x="380" y="82" fill="#d8cfea" font-family="'DM Sans', sans-serif" font-size="8" text-anchor="middle">Streaming SSE</text>
+  </g>
+
+  <text x="300" y="245" fill="#ffffff" opacity="0.9" font-family="'DM Sans', sans-serif" font-size="15" font-weight="600" text-anchor="middle">Multi-Agent RAG & Document Intelligence</text>
+  <text x="300" y="268" fill="#e8d5e5" opacity="0.75" font-family="'DM Sans', sans-serif" font-size="11" text-anchor="middle">Hybrid Search (BM25 + Dense Vectors) · Re-ranking · Evaluation (Ragas)</text>
+</svg>
