@@ -850,6 +850,19 @@ button { font: inherit; cursor: pointer; border: none; background: transparent; 
   border: 1px solid var(--line);
 }
 
+/* Company logo in trajectory time column */
+.trajectory-logo {
+  width: 46px; height: 46px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 5px;
+  box-shadow: 0 2px 8px rgba(11,34,56,0.07);
+  display: block;
+  margin-bottom: 10px;
+}
+
 /* ==========================================================================
    CERTIFICATIONS — Minimal Badge Grid
    ========================================================================== */
